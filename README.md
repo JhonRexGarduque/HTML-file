@@ -1,7 +1,7 @@
 # Project Title : HTML TAGS 
 
 ## Description
-- This project shows how to demonstrate how HTML Tags affect content and lay-out on a web page.
+- This project shows how to demonstrate HTML Tags affect content and lay-out on a web page.
 ## Activities
 - Activity 1
 ## Members
