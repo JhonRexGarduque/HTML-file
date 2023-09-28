@@ -3,7 +3,7 @@
 ## Description
 - This project shows how to demonstrate HTML Tags affect content and lay-out on a web page.
 ## Activities
-- [Activity 1](https://github.com/JhonRexGarduque/HTML-file/blob/main/index.html)
+- [Activity 1](https://github.com/JhonRexGarduque/HTML-file/blob/main/activity1.html)
 ## Members
 - Maria Amanda Labini 😊
 - Carla Rose Gona 😒
