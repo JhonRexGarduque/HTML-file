@@ -4,9 +4,12 @@
 - This project shows how to demonstrate HTML Tags affect content and lay-out on a web page.
 ## Activities
 - [Activity 1](https://github.com/JhonRexGarduque/HTML-file/blob/main/activity1.html)
+- [Activity 2](https://github.com/JhonRexGarduque/HTML-file/blob/main/activity1.html)
+- [Activity 3](https://github.com/JhonRexGarduque/HTML-file/blob/main/activity-3.html)
+- 
 ## Members
 - Maria Amanda Labini 😊
-- Carla Rose Gona 😒
+- Carla Rose Goña 😒
 - Jhon Rex Garduque 😁
 - Aira Joy Genavia 😍
 - Lara Galoso 😘
