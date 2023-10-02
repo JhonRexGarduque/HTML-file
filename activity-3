@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Shop</title>
+</head>
+<body>
+<head>
+    <link rel="stylesheet" href="./style.css">
+    </head>
+    <header>
+        <h1>Welcome to Our Coffee Shop</h1>
+    </header> 
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav>
+   
+    <div class="container">
+        <p> OUR MENU</p>
+        <div class="menu-item">
+            <img src="#" alt="Coffee 1">
+            <h2>Latte</h2>
+            <p>Smooth and creamy coffee.</p>
+        </div>
+        
+        <div class="menu-item">
+            <img src="#" alt="Coffee 2">
+            <h2>Espresso</h2>
+            <p>Strong and rich espresso shot.</p>
+        </div>
+        
+        <div class="menu-item">
+            <img src="#" alt="Coffee 3">
+            <h2>Cappuccino</h2>
+            <p>Classic Italian cappuccino.</p>
+        </div>
+        
+        <div class="menu-item">
+            <img src="#" alt="Coffee 4">
+            <h2>Americano</h2>
+            <p>Simple and delicious Americano.</p>
+        </div>
+    </div>
+    
+   <section id="about">
+      <h2>About Us</h2>
+      <p>
+“A coffee talks in a Cafe”
+      <br>
+In our busy lives, we hardly have time for ourselves. We must wake up early in the morning, rush to the office, work there all day, and rush back home in the evening. In such a situation, giving yourself time for relaxation is very important. That is why it is recommended that you should go out once in a while and meet some new people. It will help you refresh your mind and soul and make new friends who can become your support system later on in life when you need them most. And how do we do this? By having coffee talks!
+Coffee talks are an excellent way to connect with others over common interests such as movies or music while learning something new about each other’s lives that could come in handy later on.
+</p>
+    </section>       
+    <section id="contact">
+			<h2>Contact Us</h2>
+					<form>
+					<label for="name">Name</label>
+					<br>
+				 <input type="text" id="name"     name="name">
+				 <br>
+				 <label for="email">Email</label>
+				 <br>
+					<input type="email" id="email" name="email">
+					<br>
+					<label for="phone">Phone Number</label>
+					<br>
+				 <input type="text" id="phone"     name="phone">
+				 <br>
+				 <label for="message">Message</label>
+				 <br>
+<textarea id="message" name="message"></textarea>
+       <br>
+					<input type="submit" value="Send">
+	</form>
+	</section>
+    
+    <footer>
+      <p>Copyright © 2023 Coffee and Convos.
+      <br>
+      Bulan, Sorsogon, Philippines.
+    </footer>
+  </body>
+</html>
