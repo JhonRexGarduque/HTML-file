@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Variable Display</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			background-color: orange;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			margin: 20px auto;
+			padding: 20px;
+			width: 400px;
+                        transition: all 0.3s ease;
+                        border-color: #654321;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		         border: 10px solid #654321;
+                         background-image: 
+                         url("background.jpeg");
+                         background-size: center top;
+                         background-position-x: center top, 
+                         contain;
+                         text-align: center;
+                         padding: 10px;
+
+}
+		h1 {
+			color: #fff;
+			font-size: 30px;
+			margin-top: 0;
+                        padding: 20px ;
+                        background-color: orange;
+		}
+		p {
+			color: #fff;
+			font-size: 18px;
+			margin: 10px 0;
+		}
+		.value {
+			color: #fff;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>10 Variables</h1>
+	</div>
+	<div class="container">
+		<p>First Name: <span class="value" id="firstName"></span></p>
+	</div>
+	<div class="container">
+		<p>Last Name: <span class="value" id="lastName"></span></p>
+	</div>
+	<div class="container">
+		<p>Age: <span class="value" id="age"></span></p>
+	</div>
+	<div class="container">
+		<p>Email: <span class="value" id="email"></span></p>
+	</div>
+	<div class="container">
+		<p>Phone Number: <span class="value" id="phoneNumber"></span></p>
+	</div>
+	<div class="container">
+		<p>Home Address: <span class="value" id="homeAddress"></span></p>
+	</div>
+	<div class="container">
+		<p>Is Student: <span class="value" id="isStudent"></span></p>
+	</div>
+	<div class="container">
+		<p>Favorite Color: <span class="value" id="favoriteColor"></span></p>
+	</div>
+	<div class="container">
+		<p>Has Pet: <span class="value" id="hasPet"></span></p>
+	</div>
+	<div class="container">
+		<p>Date of Birth: <span class="value" id="dateOfBirth"></span></p>
+	</div>
+
+	<script>
+		// Assign values to the variables
+		var firstName = "Mariya";
+		var lastName = "Sy";
+		var age = 20;
+		var email = "mariyasy06@gmail.com";
+		var phoneNumber = "555-555-5555";
+		var homeAddress = "123 Main St, Anytown USA";
+		var isStudent = true;
+		var favoriteColor = "blue";
+		var hasPet = false;
+		var dateOfBirth = "10/06/2002";
+
+		// Display the values in the HTML
+		document.getElementById("firstName").innerHTML = firstName;
+		document.getElementById("lastName").innerHTML = lastName;
+		document.getElementById("age").innerHTML = age;
+		document.getElementById("email").innerHTML = email;
+		document.getElementById("phoneNumber").innerHTML = phoneNumber;
+		document.getElementById("homeAddress").innerHTML = homeAddress;
+		
+document.getElementById("isStudent").innerHTML = isStudent;
+		document.getElementById("favoriteColor").innerHTML = favoriteColor;
+		document.getElementById("hasPet").innerHTML = hasPet;
+		document.getElementById("dateOfBirth").innerHTML = dateOfBirth;
+	</script>
+</body>
+</html>
